@@ -1,6 +1,6 @@
 
 <!-- Banner de presentación -->
-<h1 align="center">⚡ 𝐁𝐄𝐑𝐌𝐀𝐓𝐌𝐎𝐃𝐙 👾</h1>
+<h1 align="center">𖤍BerMatCode𖤍</h1>
 <h3 align="center">💻 Innovador | Creador de Bots | Desarrollador | Ciberseguridad</h3>
 
 <p align="center">
@@ -10,7 +10,7 @@
 ---
 
 ### 👤 Sobre mí
-Hola, soy **Anth'Zz Berrocal**, conocido como **BerMatModZ**, un joven apasionado por la **tecnología, el desarrollo de bots, la inteligencia artificial y la ciberseguridad**.  
+Hola, soy **Anth'Zz Berrocal**, conocido como **BerMatCode**, un joven apasionado por la **tecnología, el desarrollo de bots, la inteligencia artificial y la ciberseguridad**.  
 He convertido mi curiosidad en una forma de vida digital.  
 Mi meta es construir herramientas inteligentes, seguras y creativas que transformen la experiencia digital de las personas.
 
