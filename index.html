@@ -4,8 +4,22 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta name="description" content="AnthZz Berrocal - Desarrollador Especializado en WhatsApp Mod, Seguridad Digital y Soluciones Web para Negocios.">
-<meta name="author" content="AnthZz Berrocal - BerMatMods">
-<meta name="@300;500;700&display=swap" rel="stylesheet"/>
+<meta name="author" content="AnthZz Berrocal - BerMatCode">
+<meta name="google-site-verification" content="JG8_KsOCw2MKItELjrA7vFLxZwO_NQsJsUs1s6prI8A" />
+<meta name="theme-color" content="#050505">
+<meta name="msapplication-navbutton-color" content="#050505">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="icon" type="image/png" href="https://raw.githubusercontent.com/BerMatMods/l/main/Picsart_26-04-15_11-04-18-425.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://raw.githubusercontent.com/BerMatMods/l/main/Picsart_26-04-15_11-04-18-425.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://raw.githubusercontent.com/BerMatMods/l/main/Picsart_26-04-15_11-04-18-425.png">
+<link rel="icon" type="image/png" sizes="48x48" href="https://raw.githubusercontent.com/BerMatMods/l/main/Picsart_26-04-15_11-04-18-425.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://raw.githubusercontent.com/BerMatMods/l/main/Picsart_26-04-15_11-04-18-425.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/BerMatMods/l/main/Picsart_26-04-15_11-04-18-425.png">
+<link rel="shortcut icon" type="image/png" href="https://raw.githubusercontent.com/BerMatMods/l/main/Picsart_26-04-15_11-04-18-425.png">
+<title>AnthZz Berrocal | BerMatCode</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;500;700&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 <style>
     :root {
@@ -299,7 +313,6 @@
       margin-top: 12px;
     }
     
-    /* Info Cards Grid - OPTIMIZED */
     .info-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -369,7 +382,6 @@
       text-shadow: 0 0 10px var(--purple-glow);
     }
     
-    /* Project Cards - OPTIMIZED */
     .project-card {
       background: var(--black-card);
       border-radius: 20px;
@@ -428,7 +440,6 @@
       font-size: 0.9rem;
     }
     
-    /* Skills Grid - OPTIMIZED */
     .skills-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -466,7 +477,6 @@
       font-size: 0.75rem;
     }
     
-    /* Badges */
     .badge-container {
       display: flex;
       flex-wrap: wrap;
@@ -491,21 +501,18 @@
     }
     .badge i { font-size: 0.9rem; }
     
-    /* Goals Section */
     .goals-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 22px;
     }
     
-    /* Personal Section */
     .personal-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 22px;
     }
     
-    /* Contact Section */
     .contact-section {
       background: var(--black-card);
     }
@@ -537,7 +544,6 @@
       color: var(--purple-light);
     }
     
-    /* Social Buttons - OPTIMIZED (NO COLOR CHANGE ON HOVER) */
     .social-bar {
       display: flex;
       justify-content: center;
@@ -652,6 +658,19 @@
       filter: drop-shadow(0 6px 20px rgba(157,0,255,0.6));
     }
     
+    @media (max-width: 1440px) {
+      .container { max-width: 1300px; }
+      .hero h1 { font-size: 3rem; }
+    }
+    
+    @media (max-width: 1024px) {
+      .container { max-width: 960px; padding: 0 25px; }
+      .hero h1 { font-size: 2.6rem; }
+      .hero p { font-size: 1.15rem; }
+      .section-header h2 { font-size: 1.8rem; }
+      .info-grid, .goals-grid, .personal-grid { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+    }
+    
     @media (max-width: 768px) {
       .mobile-toggle { display: flex; }
       .nav-links {
@@ -679,6 +698,23 @@
       .social-btn { width: 48px; height: 48px; font-size: 1.1rem; }
       .whatsapp-float { bottom: 20px; right: 20px; }
       .whatsapp-float img { width: 52px; height: 52px; }
+      section { padding: 65px 0; }
+      .project-card { padding: 24px; }
+      .info-card { padding: 22px; }
+    }
+    
+    @media (max-width: 480px) {
+      .hero h1 { font-size: 1.9rem; }
+      .hero-badge { font-size: 0.75rem; padding: 6px 16px; }
+      .section-header h2 { font-size: 1.5rem; }
+      .skills-grid { grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 14px; }
+      .skill-item { padding: 18px 10px; }
+      .skill-item i { font-size: 1.8rem; }
+      .social-bar { gap: 14px; }
+      .social-btn { width: 44px; height: 44px; font-size: 1rem; }
+      .btn { padding: 11px 24px; font-size: 0.85rem; }
+      .logo { font-size: 1.15rem; }
+      .logo img { height: 34px; }
     }
     
     @media (prefers-reduced-motion: reduce) {
@@ -689,11 +725,17 @@
       }
     }
     
-    /* Performance optimization */
     .hero, .info-card, .project-card, .skill-item, .social-btn, .btn, header, .contact-panel {
       transform: translateZ(0);
       backface-visibility: hidden;
       will-change: transform, box-shadow, border-color;
+    }
+    
+    @media (min-width: 1920px) {
+      .container { max-width: 1600px; }
+      body { font-size: 16px; }
+      .hero h1 { font-size: 3.8rem; }
+      .hero p { font-size: 1.4rem; }
     }
 </style>
 </head>
@@ -702,8 +744,8 @@
     <div class="container">
       <nav>
         <a href="#" class="logo">
-          <img src="https://raw.githubusercontent.com/BerMatMods/l/main/Picsart_26-04-15_11-04-18-425.png" alt="AnthZz Berrocal">
-          <span>ANTH'ZZ</span>
+          <img src="https://i.postimg.cc/26yZg4nJ/pandad.png" alt="AnthZz Berrocal">
+          <span>BM-Mods</span>
         </a>
         <button class="mobile-toggle" id="mobileToggle" aria-label="Menú">
           <i class="fas fa-bars"></i>
@@ -733,7 +775,6 @@
     </div>
   </section>
 
-  <!-- Sobre Mí -->
   <section id="about">
     <div class="container">
       <div class="section-header">
@@ -744,7 +785,7 @@
         <div class="info-card">
           <h3><i class="fas fa-user-circle"></i> Información</h3>
           <p><strong>NOMBRE:</strong> <span class="highlight">AnthZz Berrocal</span><br>
-          <strong>ALIAS:</strong> <span class="highlight">BerMatModZ</span><br>
+          <strong>ALIAS:</strong> <span class="highlight">BerMatCode</span><br>
           <strong>UBICACIÓN:</strong> <span class="highlight">Perú</span> 🇵🇪<br>
           <strong>INTERÉS:</strong> <span class="highlight">Hacking</span></p>
         </div>
@@ -754,13 +795,12 @@
         </div>
         <div class="info-card">
           <h3><i class="fas fa-rocket"></i> Marca Principal</h3>
-          <p><span class="highlight">BerMatMods</span> - Ecosistema tecnológico especializado en herramientas avanzadas, automatización y soluciones digitales personalizadas.</p>
+          <p><span class="highlight">BerMatCode</span> - Ecosistema tecnológico especializado en herramientas avanzadas, automatización y soluciones digitales personalizadas.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- WhatsApp Mod Section -->
   <section id="whatsapp" style="background: var(--black-card);">
     <div class="container">
       <div class="section-header">
@@ -793,7 +833,6 @@
     </div>
   </section>
 
-  <!-- Proyectos WhatsApp Mod -->
   <section id="projects">
     <div class="container">
       <div class="section-header">
@@ -817,7 +856,7 @@
       </div>
       
       <div class="project-card">
-        <h3><i class="fas fa-code-branch"></i> BerMatMods Core</h3>
+        <h3><i class="fas fa-code-branch"></i> BerMatCode Core</h3>
         <p>Plataforma central que integra todas las herramientas y desarrollos tecnológicos especializados.</p>
         <ul class="features-list">
           <li><i class="fas fa-robot"></i> Bots multiplataforma escalables</li>
@@ -863,7 +902,6 @@
     </div>
   </section>
 
-  <!-- Seguridad y Análisis Digital -->
   <section id="security" style="background: var(--black-card);">
     <div class="container">
       <div class="section-header">
@@ -917,7 +955,6 @@
     </div>
   </section>
 
-  <!-- Desarrollo Web para Negocios -->
   <section id="webdev">
     <div class="container">
       <div class="section-header">
@@ -965,7 +1002,6 @@
     </div>
   </section>
 
-  <!-- Tecnologías -->
   <section style="background: var(--black-card);">
     <div class="container">
       <div class="section-header">
@@ -1037,7 +1073,6 @@
     </div>
   </section>
 
-  <!-- Objetivos -->
   <section>
     <div class="container">
       <div class="section-header">
@@ -1050,7 +1085,7 @@
           <ul>
             <li>Especialización en <span class="highlight">arquitectura cloud</span></li>
             <li>Certificación en <span class="highlight">seguridad ofensiva</span></li>
-            <li>Expansión de <span class="highlight">BerMatMods</span> a nuevas plataformas</li>
+            <li>Expansión de <span class="highlight">BerMatCode</span> a nuevas plataformas</li>
             <li>Desarrollo de <span class="highlight">framework propio</span> para bots</li>
           </ul>
         </div>
@@ -1067,7 +1102,6 @@
     </div>
   </section>
 
-  <!-- Vida Personal -->
   <section style="background: var(--black-card);">
     <div class="container">
       <div class="section-header">
@@ -1080,7 +1114,7 @@
           <p>Comprometido con el equilibrio físico y mental. La disciplina en el entrenamiento se refleja en la consistencia del desarrollo profesional.</p>
         </div>
         <div class="info-card">
-          <h3><i class="fas fa-heart"></i> Romance</h3>
+          <h3><i class="fas fa-heart"></i> RELACIÓN</h3>
           <p>En relación con <span class="highlight">JHORYINA BRIYIDTH</span> ❤️, fuente constante de motivación para superar nuevos desafíos tecnológicos.</p>
         </div>
         <div class="info-card">
@@ -1091,7 +1125,6 @@
     </div>
   </section>
 
-  <!-- Contacto -->
   <section id="contact" class="contact-section">
     <div class="container">
       <div class="section-header">
@@ -1102,7 +1135,7 @@
         <h3><i class="fas fa-headset"></i>Redes</h3>
         
         <div class="social-bar">
-          <a href="https://github.com/BerMatModZ" target="_blank" class="social-btn" title="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://github.com/BerMatCode" target="_blank" class="social-btn" title="GitHub"><i class="fab fa-github"></i></a>
           <a href="#" class="social-btn" title="Instagram"><i class="fab fa-instagram"></i></a>
           <a href="https://wa.me/51930569195" target="_blank" class="social-btn" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
           <a href="#" class="social-btn" title="Telegram"><i class="fab fa-telegram"></i></a>
@@ -1111,7 +1144,7 @@
         
         <p style="color: var(--gray); margin: 15px 0;">
           <i class="fas fa-map-marker-alt" style="color: var(--purple-light);"></i> 
-           By: BerMatMods <span class="highlight">Perú</span> 🇵🇪 para clientes globales
+           By: BerMatCode <span class="highlight">Perú</span> 🇵🇪 para clientes globales
         </p>
         
         <a href="https://wa.me/51930569195" target="_blank" class="btn" style="margin-top: 15px;">
@@ -1124,12 +1157,12 @@
   <footer>
     <div class="container">
       <div class="footer-logo">
-        <img src="https://raw.githubusercontent.com/BerMatMods/l/c27a3ae8a5cafa9ba5cb4772db48f85632d7ead5/Picsart_26-04-15_10-22-53-565.png" alt="BerMatMods Logo">
+        <img src="https://raw.githubusercontent.com/BerMatMods/l/c27a3ae8a5cafa9ba5cb4772db48f85632d7ead5/Picsart_26-04-15_10-22-53-565.png" alt="BerMatCode Logo">
       </div>
       
       <div class="copyright">
-        &copy; <span id="year"></span> <span class="gold-text">AnthZz Berrocal</span> | <span class="gold-text">BerMatModZ</span><br>
-        <a href="https://github.com/BerMatModZ" target="_blank">© BERMA𝐓-CODE𖤍</a><br>
+        &copy; <span id="year"></span> <span class="gold-text">AnthZz Berrocal</span> | <span class="gold-text">BM-Mods</span><br>
+        <a href="https://github.com/BerMatCode" target="_blank">© BERMAT-CODE𖤍</a><br>
         <span style="font-size: 0.85rem; opacity: 0.8; margin-top: 8px; display: block;">
           WhatsApp Mod Specialist • Security Analyst • Web Solutions Developer
         </span>
@@ -1142,10 +1175,8 @@
   </a>
 
   <script>
-    // Año actual en footer
     document.getElementById('year').textContent = new Date().getFullYear();
     
-    // Header scroll effect - optimized
     let ticking = false;
     window.addEventListener('scroll', function() {
       if (!ticking) {
@@ -1162,7 +1193,6 @@
       }
     }, { passive: true });
     
-    // Mobile menu toggle
     const mobileToggle = document.getElementById('mobileToggle');
     const navLinks = document.getElementById('navLinks');
     
@@ -1171,7 +1201,6 @@
       this.classList.toggle('active');
     });
     
-    // Close mobile menu when clicking a link
     document.querySelectorAll('.nav-links a').forEach(link => {
       link.addEventListener('click', () => {
         navLinks.classList.remove('active');
@@ -1179,7 +1208,6 @@
       });
     });
     
-    // Smooth scroll for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function(e) {
         e.preventDefault();
@@ -1193,7 +1221,6 @@
       });
     });
     
-    // Button click feedback - lightweight
     document.querySelectorAll('.btn').forEach(btn => {
       btn.addEventListener('click', function(e) {
         if(this.tagName === 'BUTTON') {
@@ -1206,7 +1233,6 @@
       });
     });
     
-    // Performance: Reduce reflows on hover effects
     document.querySelectorAll('.info-card, .project-card, .skill-item, .contact-panel').forEach(card => {
       card.addEventListener('mouseenter', function() {
         this.style.willChange = 'transform, box-shadow, border-color';
